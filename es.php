@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html>
 	<head>
 		<title>On Creativity</title>
 		<?php if(file_exists('mod/meta.php')){ include('mod/meta.php'); } ?>
