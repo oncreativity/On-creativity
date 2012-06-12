@@ -10,11 +10,6 @@
 		<link href="Css/base.css" type="text/css" rel="stylesheet"/>
 		<link href="Css/skeleton.css" type="text/css" rel="stylesheet"/>
 		<link href="Css/layout.css" type="text/css" rel="stylesheet"/>
-		<script type="text/javascript" src="Js/jquery-1.4.4.min.js"></script>
- 		<script type="text/javascript" src="Js/jquery-ui-1.8.7.custom.min.js"></script>
- 		<script type="text/javascript" src="Js/global.js"></script>
- 		<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
- 		<script type="text/javascript" src="Js/slides.min.jquery.js"></script>
  	</head>
  	<body>
  		<header>
@@ -68,7 +63,7 @@
  				</div>
  				<div class="nine columns left">
  					<p>On creativity nace en 2012 en la ciudad de Barranquilla, Colombia. Somos una agencia de creatividad enfocada en el área digital, en donde los mas apasionados por la comunicación, las artes, la tecnología y la antropología,están al frente de todas las ideas que desarrollamos ennuestro estudio.
- 						<br><br> Nuestra visión es crear verdaderas experiencias de marca que pongan a su empresa en el radar de sus clientes en potencia y que sus usuarios exploren como entretenimiento.
+ 						<br><br>Nuestra visión es crear verdaderas experiencias de marca que pongan a su empresa en el radar de sus clientes en potencia y que sus usuarios exploren como entretenimiento.
  					</p>
  				</div>
  				<div class="seven columns">
@@ -83,30 +78,14 @@
  			<div class="container">
  				<center><h3>CLIENTES</h3></center>
  				<div class="logos" id="hidden">
- 					<p class="procecorp">
- 						<img src="Css/images/procecorp.png"/>
- 					</p>
- 					<p class="semillas">
- 						<img src="Css/images/semillas.png"/>
- 					</p>
- 					<p class="abogados">
- 						<img src="Css/images/abogados.png"/>
- 					</p>
- 					<p class="angela">
- 						<img src="Css/images/angela.png"/>
- 					</p>
- 					<p class="safer">
- 						<img src="Css/images/safer.png"/>
- 					</p>
- 					<p class="tresdos">
- 						<img src="Css/images/tresdos.png"/>
- 					</p>
- 					<p class="districomex">
- 						<img src="Css/images/districomes.png"/>
- 					</p>
- 					<p class="tu">
- 						<img src="Css/images/tu.png"/>
- 					</p>
+ 					<p class="procecorp"> <img src="Css/images/procecorp.png"/></p>
+ 					<p class="semillas"><img src="Css/images/semillas.png"/></p>
+ 					<p class="abogados"><img src="Css/images/abogados.png"/></p>
+ 					<p class="angela"><img src="Css/images/angela.png"/></p>
+ 					<p class="safer"><img src="Css/images/safer.png"/></p>
+ 					<p class="tresdos"><img src="Css/images/tresdos.png"/></p>
+ 					<p class="districomex"><img src="Css/images/districomes.png"/></p>
+ 					<p class="tu"><img src="Css/images/tu.png"/></p>
  				</div>
  			</div>
  		</section>
@@ -268,5 +247,10 @@
  			</div>
  		</div>
  	</section>
+	<script type="text/javascript" src="Js/jquery-1.4.4.min.js"></script>
+	<script type="text/javascript" src="Js/jquery-ui-1.8.7.custom.min.js"></script>
+	<script type="text/javascript" src="Js/global.js"></script>
+	<script type="text/javascript" src="Js/slides.min.jquery.js"></script>
+	<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
 </body>
 </html>

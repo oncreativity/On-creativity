@@ -21,6 +21,11 @@ $(document).ready(function(){initialize();$('.avion').stop().animate({'left':$(w
               $('.silustraciones .primerafase').animate({'margin-left':'-30%'},1000, 'swing');
               evt.preventDefault();
       });
+
+       $('#atras').click(function(evt){
+              $('.silustraciones .segundafase').animate({'margin-left':'+30%'},1000, 'swing');
+              evt.preventDefault();
+      });
       
       $('.silustraciones .segundafase img').click(function(){
               
@@ -92,9 +97,9 @@ $(document).ready(function(){initialize();$('.avion').stop().animate({'left':$(w
  
 
 function initialize() {
-				var latlng = new google.maps.LatLng(10.992203,-74.807796);
+				var latlng = new google.maps.LatLng(10.992733,-74.808296);
 				var settings = {
-					zoom: 15,
+					zoom: 16,
 					center: latlng,
 					mapTypeControl: true,
 					mapTypeControlOptions: {style: google.maps.MapTypeControlStyle.DROPDOWN_MENU},
