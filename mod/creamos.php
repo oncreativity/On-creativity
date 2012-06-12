@@ -1,3 +1,11 @@
+<html>
+<head>
+    <link href="css/global.css" type="text/css" rel="stylesheet"/>
+    <link href="css/base.css" type="text/css" rel="stylesheet"/>
+    <link href="css/skeleton.css" type="text/css" rel="stylesheet"/>
+    <link href="css/layout.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
 <section class="screamos">
 	<div class="container">
 		<h3>CREAMOS</h3>
@@ -20,3 +28,5 @@
 		</ol>
 	</div>
 </section>
+</body>
+</html>
