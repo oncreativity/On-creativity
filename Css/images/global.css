@@ -1,0 +1,1026 @@
+/* 
+    Document   : global
+    Created on : 16/04/2012, 10:24:26 PM
+    Author     : ONCREATIVITY
+*/
+
+@import url(reset.css);
+
+@font-face
+{
+    font-family: 'bebas';
+    src        : url(fonts/BEBAS___.ttf);
+}
+
+@font-face
+{
+    font-family: 'coolvetica';
+    src        : url(fonts/coolveticarg.ttf);
+}
+
+
+/************************
+ *      css global      *
+ ************************/
+
+body
+{
+   background: url(images/scapa.png) no-repeat 0px 80px;
+   overflow-x: hidden;
+}
+
+.workarea
+{
+    width : 960px;
+    margin: 0 auto;
+}
+
+ul , ol
+{
+    list-style: none;
+}
+
+li
+{
+  float: left;    
+}
+
+.active
+{
+    text-decoration: underline;
+}
+
+p a
+{
+    color: black;
+}
+
+
+/************************
+ *      css header      *
+ ************************/
+
+header
+{
+    position  : fixed;
+    background: white;
+    z-index   : 99999;
+    height    : 55px; 
+    width     : 100%; 
+    box-shadow: 0 8px 6px -6px #B1B2B1;
+    -webkit-box-shadow: 0 8px 6px -6px #B1B2B1;
+    -moz-box-shadow: 2px #B1B2B1;    
+    -o-box-shadow: 2px #B1B2B1;
+}
+
+
+header nav ul
+{
+    width : 1000px;
+    margin: 0 auto;
+}
+
+
+header nav li
+{
+    color    : white;
+    float    : left; 
+    padding  : 25px 8px 18px 18px;
+}
+
+header nav li:first-child
+{ 
+    margin-right: 70px;
+    padding     : 10px 18px 18px 18px;
+}
+
+
+header nav li a
+{
+    color     : white;
+    font-size : 120%;
+}
+
+header nav li img
+{
+    margin-top: -5px;
+}
+
+header nav li:last-child
+{
+    margin-left : 40px;
+    margin-top  : -8px; 
+    margin-right: 0px;
+}
+
+.nosotros
+{
+    background: url(images/Nosotros.png) no-repeat 0px  0px;
+    padding   : 16px 20px 0 20px; 
+}
+
+.clientes
+{
+    background: url(images/Clientes.png) no-repeat 0px  0px;
+    padding   : 18px 20px 0 20px; 
+}
+
+.proyectos
+{
+    background: url(images/Proyectos.png) no-repeat 0px  0px;
+    padding   : 22px 22px 0 22px; 
+}
+
+.ilustraciones
+{
+    background: url(images/Ilustraciones.png) no-repeat 0px  0px;
+    padding   : 18px 22px 0 22px; 
+}
+
+.creamos
+{
+    background: url(images/Creamos.png) no-repeat 0px  0px;
+    padding   : 16px 22px 0 22px; 
+}
+
+.contacto
+{
+    background: url(images/Contacto.png) no-repeat 0px  0px;
+    padding   : 20px 22px 0 22px; 
+}
+
+.proyectos
+{
+    background: url(images/Proyectos.png) no-repeat 0px  0px;
+    padding   : 20px 22px 0 22px; 
+}
+
+.unetenos
+{
+    background: url(images/Unetenos.png) no-repeat 0px  0px;
+    padding   : 16px 22px 0 22px; 
+}
+
+/************************
+ *      css intro       *
+ ************************/
+
+.intro
+{
+  background: url(images/tcapa.png) no-repeat 0px 10px;
+  height    : 800px;
+  width     : 100%; 
+}
+
+.intro .scapa
+{
+  
+  height    : 362px;
+  width     : 100%;
+}
+
+
+.intro .avion
+{
+    position  : absolute;
+    z-index   : 999999;
+    background: url(images/avion.png) no-repeat;
+    height    : 51px;
+    width     : 106px;
+    top       : 55px;
+}
+
+
+.intro .workarea
+{
+    margin-top: 100px; 
+}
+
+.intro .workarea h3
+{
+    background   : url(images/bg_frases.png) repeat-x;
+    color        : white;
+    font-size    : 270%;
+    padding      : 0 10px 10px 10px;
+    width        : 930px; 
+    margin-bottom: 10px;
+    margin-left  : 90px;
+    font-family  : "coolvetica"; 
+}
+
+.intro .workarea h3:first-child
+{
+    width: 487px;
+}
+
+.intro .workarea h3:last-child
+{
+    width: 250px;
+}
+
+
+/************************
+ *      css nosotros    *
+ ************************/
+
+.snosotros
+{
+    background : url(images/background_nosotros.jpg) no-repeat;
+    height     : 700px; 
+    padding-top: 50px; 
+}
+
+
+.snosotros h3
+{
+   font-size    : 790%;
+   color        : white;
+   margin-left  : 250px; 
+   margin-bottom: 50px;
+   font-family : 'coolvetica'; 
+  
+}
+
+.snosotros .fotos img
+{
+    float: left;
+    margin-right : 12px;
+    margin-bottom: 20px; 
+}
+
+
+.clear
+{
+    clear : both; 
+}
+
+.snosotros p
+{
+    width       : 450px;
+    color       : white;
+    font-size   : 140%;
+    float       : left;
+    line-height : 25px; 
+    margin-right: 24px; 
+
+}
+
+.snosotros h4
+{
+    font-size  : 290%;
+    font-weight: bold;
+    line-height: 45px;
+    color      : white;
+}
+
+/************************
+ *      css creamos     *
+ ************************/
+
+.screamos
+{
+    background : url(images/background_creamos.png) no-repeat;
+    height     : 650px; 
+    padding-top: 50px; 
+}
+
+.screamos .workarea
+{
+    height    : 80%; 
+}
+
+
+.screamos h3
+{
+    font-size    : 710%;
+    margin-left  : 300px;
+    margin-bottom: 150px;
+    font-family  : 'coolvetica';
+    color        : white; 
+}
+
+
+.screamos p
+{
+    font-size  : 120%;
+    float      : left; 
+    line-height: 20px; 
+    text-align : justify;
+    width      : 520px;
+    color      : white; 
+}
+
+.screamos p span
+{
+    color: #B02C2B;
+    font-weight: bold;
+    font-size: 140%;
+    line-height: 50px;
+}
+
+
+.screamos ol
+{
+    list-style: circle;
+    list-style-image: url(images/circulos.png);
+    float     : right;
+    margin-top: -15px;
+    width     : 300px; 
+}
+
+.screamos ol li:first-child
+{
+    list-style   : none;
+    margin-bottom: 30px;
+    margin-left  : -10px; 
+}
+
+.screamos ol li p
+{
+   float: none;    
+}
+
+
+/************************
+ *      css clientes    *
+ ************************/
+
+.sclientes
+{
+    background : url(images/background_clientes.jpg) no-repeat;
+    height     : 650px; 
+    padding-top: 50px; 
+}
+
+.sclientes .workarea
+{
+    height    : 80%; 
+}
+
+.sclientes .titulo
+{
+    background: url(images/bg_negro.png) repeat-x;
+    width     : 230px;
+    padding   : 0 15px 30px 15px; 
+    position  : absolute;  
+}
+
+.sclientes .titulo h3
+{
+    color      : white;
+    font-size  : 410%; 
+    font-family: 'coolvetica';
+}
+
+.sclientes p
+{
+    background: url(images/bg_blanco.png);
+    width     : 160px;
+    padding   : 55px 10px 0 15px;
+    margin    : 90px 10px 0 17px;  
+    height    : 110px;
+    overflow  : hidden; 
+    float     : left;
+    visibility: hidden; 
+}
+
+.sclientes p:first-child
+{
+    margin    : 90px 10px 0 57px;  
+}
+
+
+.sclientes p.semillas
+{
+    width     : 110px;
+    padding   : 25px 10px 0 55px;
+    margin    : 90px 10px 0 27px;  
+    height    : 140px;
+}
+
+
+.sclientes p.abogados
+{
+    width     : 150px;
+    padding   : 40px 10px 0 15px;
+    margin    : 90px 10px 0 17px;  
+    height    : 125px;
+}
+
+.sclientes p.angela
+{
+    padding   : 70px 10px 0 15px;
+    margin    : 90px 10px 0 17px;  
+    height    : 95px;
+    width     : 155px;
+}
+
+.sclientes p.safer
+{
+    width     : 153px;
+    padding   : 60px 10px 0 20px;
+    margin    : 40px 10px 0 57px;  
+    height    : 105px;
+}
+
+.sclientes p.tresdos
+{
+    width     : 110px;
+    padding   : 45px 10px 0 55px;
+    margin    : 40px 10px 0 27px;  
+    height    : 122px;
+}
+
+.sclientes p.districomex
+{
+    width     : 150px;
+    padding   : 40px 10px 0 15px;
+    margin    : 40px 10px 0 17px;  
+    height    : 128px;
+}
+
+.sclientes p.tu
+{
+    padding   : 50px 10px 0 45px;
+    margin    : 40px 10px 0 17px;  
+    height    : 118px;
+    width     : 125px;
+}
+
+/************************
+ *  css proyectos       *
+ ************************/
+
+.sproyectos
+{
+    background : url(images/background_proyectos.jpg) no-repeat;
+    height     : 650px; 
+    padding-top: 50px; 
+}
+
+.sproyectos .titulo h3
+{
+    float     : right;
+    color     : white;
+    font-size : 340%; 
+    margin-top: -70px;
+    background: url(images/bg_negro.png) repeat-x;
+    width     : 250px;
+    padding   : 12px 15px 30px 15px; 
+    margin-bottom: 20px;
+    
+}
+
+.sproyectos .titulo p
+{
+    font-size  : 125%;
+    line-height: 22px; 
+    margin-top : 40px; 
+}
+
+
+.sproyectos .lproyectos
+{
+    margin-top: 90px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    width     : 100%;
+    height    : 280px;
+    padding   : 20px; 
+    cursor    : pointer; 
+}
+
+.lproyectos::-webkit-scrollbar  {
+    width: 12px;
+}
+ 
+/* Track */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px #D5D5D5; 
+ 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #D5D5D5; 
+    -webkit-box-shadow: inset 0 0 6px #D5D5D5; 
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	background: #D5D5D5; 
+}
+
+
+
+.sproyectos .contenedor
+{
+   width: 4000px;    
+}
+
+.sproyectos .container
+{
+    float        : left; 
+    margin-right : 10px;
+    background   : url(images/separador.png) 250px no-repeat;
+    padding-right: 10px;
+    display      : block; 
+    width        : 270px;
+    height       : 230px; 
+}
+
+.sproyectos .container p
+{
+    background: black;
+    color     : white;
+    padding   : 5px;
+    font-size : 120%;
+    font-weight:bold;
+    margin-top: 5px;
+    margin-bottom: 2px;
+    width     : 175px; 
+}
+
+.sproyectos .container span
+{
+    font-size: 90%;
+}
+
+.sproyectos .modalproyectos
+{
+    position:absolute; 
+    width : 980px;
+    height: 400px;
+    background: white;
+    padding: 30px 10px 30px 30px;
+    z-index: 10000000;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+
+.sproyectos .modalproyectos .info
+{
+    float: left;
+    width: 650px; 
+}
+
+
+.sproyectos .modalproyectos .titulo h2
+{
+    background: url(images/bg_negro.png) repeat-x;
+    width     : 280px;
+    padding   : 10px 15px 30px 15px;
+    margin-right: 30px;
+    color     : white;
+    font-size : 355%;
+    margin-bottom: 20px;
+    float     : left; 
+}
+
+.sproyectos .modalproyectos h5
+{
+    font-size  : 250%;
+    font-weight: 400;
+    padding-top: 10px;
+    color      : #545453; 
+}
+
+.sproyectos .modalproyectos img
+{
+    margin-left: 40%;
+}
+
+.sproyectos .modalproyectos p
+{
+    color      : #505050;
+    font-size  :  115%;
+    line-height: 20px; 
+    text-align : justify; 
+    margin-bottom: 20px;
+    margin-top : 10px; 
+}
+
+.sproyectos .modalproyectos .images
+{
+    background:  url(images/separador.png) repeat-y 0 0;
+    height: 300px;
+    width : 300px;
+    float : right;
+    overflow-y: scroll;
+    margin-top: -27px;
+    height   : 112%; 
+}
+
+.images::-webkit-scrollbar  {
+    width: 12px;
+}
+ 
+/* Track */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px #D5D5D5; 
+ 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #D5D5D5; 
+    -webkit-box-shadow: inset 0 0 6px #D5D5D5; 
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	background: #D5D5D5; 
+}
+
+.sproyectos .modalproyectos ol
+{
+    width   : 450px;
+    overflow: hidden;
+    margin-left:110px; 
+    margin-top: 30px;
+}
+
+.sproyectos .modalproyectos ol li
+{
+    margin-right: 60px;
+}
+
+.sproyectos .modalproyectos ol li h4
+{
+    color      :#5A5D5C;
+    line-height: 18px; 
+}
+
+/************************
+ *  css ilustraciones   *
+ ************************/
+
+.silustraciones
+{
+    background : url(images/background_clientes.jpg) no-repeat;
+    height     : 650px; 
+    padding-top: 50px; 
+}
+
+.silustraciones .workarea
+{
+    height    : 90%;
+}
+
+.silustraciones .workarea .primerafase
+{
+    background: url(images/canon.png) no-repeat left bottom;
+    height    : 100%;
+    width     : 100%;
+    display   : block; 
+}
+
+.silustraciones .workarea .primerafase h2
+{
+    font-size  : 700%; 
+    padding    : 0 15px 30px 15px; 
+    width      : 400px;
+    margin     : 0px 0 0 150px; 
+    font-family: 'coolvetica';
+}
+
+.silustraciones .workarea .primerafase .hombre
+{
+    width : 115px;
+    height: 88px;
+    position: absolute;
+    margin-top : 290px;
+    margin-left: 160px;
+    -webkit-transform: rotate(-45deg); 
+    -moz-transform: rotate(-45deg);	
+    -o-transform: rotate(-45deg);
+    float : left; 
+}
+
+.silustraciones .workarea .primerafase a
+{
+    background: url(images/ver.png) no-repeat;
+    padding   : 50px; 
+    margin-top: 150px;
+    float     : right; 
+}
+
+
+.silustraciones .workarea .segundafase
+{
+
+    width    : 90%;
+    margin-top: -550px;
+    margin-left: 160%;
+    display  : none; 
+    float    : left; 
+}
+
+.silustraciones .workarea .segundafase .titulo
+{
+    background: url(images/bg_negro.png) repeat-x;
+    width     : 350px;
+    padding   : 0 15px 30px 15px; 
+    margin-bottom: 20px;
+}
+
+.silustraciones .workarea .segundafase .titulo h3
+{
+    color      : white;
+    font-size  : 410%; 
+    font-family: 'coolvetica';
+}
+
+.silustraciones .workarea .segundafase img
+{
+    margin-right : 10px;
+    margin-bottom: 10px;
+    cursor       : pointer; 
+}
+
+.modal
+{
+    position   : absolute; 
+    background : white;
+    padding    : 20px 7px 7px 20px;
+    z-index    : 1000000;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+
+.overlay
+{
+    position  : absolute; 
+    width     : 100%;
+    height    : 100%;
+    background: #2E2E2E;
+    opacity   : .7;
+    z-index   : 999999; 
+}
+
+
+/************************
+ *      css unetenos    *
+ ************************/
+
+.sunetenos
+{
+    background : url(images/background_clientes.jpg) no-repeat 0 0px;
+    height     : 680px; 
+    padding-top: 50px; 
+}
+
+.sunetenos .workarea
+{
+     background : url(images/gray.png) -80px 50px;
+     height     : 100%; 
+}
+
+
+.slides_container {
+    width        :100%;
+    background   : url(images/background_clientes.jpg);
+    height       :220px;
+  }
+  
+  .hz
+  {
+      float: right; 
+  }
+  
+  .hz li
+  {
+      background: #8E8E8F;
+      color     : #8E8E8F;
+      padding   : 0px 2px 0px 2px; 
+      border-radius: 45px;
+      margin-right: 5px; 
+      -moz-border-radius: 45px;
+      -webkit-border-radius: 45px;
+      -o-border-radius: 45px;
+  }
+  
+  .hz li.current
+  {
+      background: #525352;
+      color     : #525352;
+  }
+  
+  .hz a
+  {
+      color: #8E8E8F;
+  }
+  
+  .hz li.current a
+  {
+      color     : #525352;
+  }
+  
+  .slides_container div {
+    width:80%;
+    height:190px;
+    display:block;
+  }
+
+.sunetenos .workarea #slides img
+{
+     float      : left; 
+     margin-left: 150px;
+}
+
+.sunetenos .workarea #slides p
+{
+     float      : left;   
+     font-size  : 110%;
+     line-height: 18px;
+     margin-top : 100px; 
+     margin-left: 10px;
+     color      : #424242; 
+     width      : 500px;
+     text-align : justify; 
+     font-family: 'times new roman';
+}
+
+.sunetenos .workarea #slides p span.open
+{
+    background  : url(images/open.png) no-repeat 0 0;
+    width       : 32px;  
+    height      : 93px;
+    margin-right: 5px  ;
+    float       : left; 
+}
+
+.sunetenos .workarea #slides p span.close
+{
+    background  : url(images/close.png) no-repeat 0 0;
+    width       : 32px;  
+    height      : 93px;
+    margin-right: 5px  ;
+    float       : right; 
+}
+
+.sunetenos .workarea #slides b
+{
+    font-size: 65%;
+}
+
+.sunetenos .workarea #slides b.gray
+{
+    color: #A6A4A5;
+}
+
+.sunetenos .workarea .bottom h3
+{
+    font-size    : 700%;
+    margin-left  : 270px;
+    margin-bottom: 70px;
+    margin-top   : 60px; 
+}
+
+.sunetenos .workarea .bottom p
+{
+    font-size  : 120%;
+    line-height: 20px;
+    margin-left: 130px;
+}
+
+/************************
+ *      css contacto    *
+ ************************/
+
+.scontacto
+{
+    background : url(images/background_contacto.jpg) no-repeat;
+    height     : 680px; 
+    padding-top: 50px; 
+}
+
+.scontacto .celular
+{
+    background:  url(images/cel.png) 680px fixed no-repeat ;
+    height    : 680px; 
+    width     : 400px; 
+    float     : right;
+    margin-top: -50px;
+}
+
+
+.scontacto .celular #map_canvas
+{
+    margin-left: 91px;
+    margin-top : 216px; 
+    width      : 198px;
+    height     : 301px;
+    
+}
+
+
+@media only screen and (min-height:700px){
+    
+    .scontacto .celular
+    {
+        background:url(images/cel.png) 840px fixed no-repeat ;
+        height    : 680px; 
+        width     : 400px; 
+        float     : right;
+        margin-top: -50px;
+    }
+
+
+    .scontacto .celular #map_canvas
+    {
+        margin-left: 92px;
+        margin-top : 165px; 
+        width      : 198px;
+        height     : 301px;
+
+    }
+}
+
+.scontacto .contenido
+{
+    float     : left;
+    margin-top: 80px; 
+}
+
+.scontacto h3
+{
+   font-size    : 550%;
+   color        : white;
+   margin-bottom: 15px;
+   font-family  : 'coolvetica'; 
+  
+}
+
+.scontacto h4
+{
+   font-size    : 200%;
+   color        : black;
+   padding      : 5px; 
+   background   : url(images/bg_blanco.png) repeat-x;  
+   margin-bottom: 40px;
+   font-family  : 'bebas'; 
+  
+}
+
+.scontacto ol li
+{
+    clear        : both;
+    margin-bottom: 25px; 
+}
+
+.scontacto ol li span , .scontacto ol li p
+{
+     color      : white;
+     font-size  : 115%; 
+     line-height: 25px;
+}
+
+.scontacto ol li a
+{
+     color      : white;
+     font-size  : 120%; 
+     font-weight: bold;
+}
+
+.scontacto ol li p
+{
+    color        : white;
+    font-size    : 117%;
+    line-height  : 17px; 
+    text-align   : justify;
+    font-weight  : bold; 
+}
+
+.scontacto ol li:last-child
+{
+    margin-top: 40px;
+}
+
+.scontacto ol li .face
+{
+    background  : url(images/social.png) no-repeat;
+    padding     : 10px 8px 0px 10px;
+    margin-right: 10px;
+}
+
+.scontacto ol li .tweet
+{
+    background  : url(images/social.png) 86px 0px ;
+    padding     : 10px 11px 0px 13px;
+    margin-right: 10px; 
+}
+
+.scontacto ol li .vimeo
+{
+    background  : url(images/social.png) 50px 0px ;
+    padding     : 10px 8px 0px 10px; 
+    margin-right: 10px;
+}
+
+.scontacto ol li .google
+{
+    background: url(images/social.png) 28px 0px ;
+    padding   : 9px 18px 0px 10px; 
+}
