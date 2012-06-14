@@ -131,9 +131,10 @@ header nav li:last-child:hover{background: none !important;}
 .snosotros p{color       : white;font-size   : 130%;line-height : 25px; margin-right: 120px; }
 .snosotros h4{font-size  : 350%;font-weight: bold;line-height: 45px;color      : white;font-family : 'coolvetica' !important; }
 .screamos{background : url(images/background_creamos.png) no-repeat;height     : 650px; padding-top: 50px;}
-.screamos h3{font-size    : 710%;margin-left  : 300px;margin-bottom: 150px;font-family  : 'coolvetica';color        : white; }
-.screamos p{font-size  : 120%;float      : left; line-height: 20px; text-align : justify;width      : 520px;color      : white; font-family: 'Segoe UI';}
-.screamos p span{color: #DC3434;font-weight: bold;font-size: 140%;line-height: 50px;}
+.screamos h3{font-size    : 450%;margin-left  : 10px;margin-bottom: 150px; margin-top: 40px; font-family  : 'coolvetica';color        : white; }
+.screamos p{font-size  : 90%;float      : left; line-height: 15px; text-align : justify;width      : 520px;color      : white; font-family: 'Segoe UI';}
+.screamos h3 span{color: #BBD509;font-weight: bold;font-size: 95%;}
+.screamos p span{color: #BBD509;font-weight: bold;font-size: 140%;line-height: 50px;}
 .screamos ol{list-style: circle;list-style-image: url(images/circulos.png);margin-left: 50px !important; margin-top : -15px;}
 .screamos ol li{margin-bottom: -10px !important;width        : 100%;}
 .screamos ol li:first-child{list-style   : none;margin-bottom: 30px;margin-left  : -10px;}

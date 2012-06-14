@@ -1,7 +1,7 @@
 <section class="silustraciones">
 	<div class="container">
 		<center><h2>ILUSTRACIONES</h2></center>
-		<div class="block">
+		<div class="block" style="margin-top: -40px;">
 			<div class="contenedor">
 				<div class="sixteen columns primerafase">
 					<div class="hombre">

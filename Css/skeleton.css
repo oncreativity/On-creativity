@@ -42,7 +42,7 @@
     .container .fourteen.columns                { width: 820px; }
     .container .nine.columns                    { width: 570px; }
     .container .one.columns                     { width: 40px;  }
-    .container .seven.columns                   { width: 560px; }
+    .container .seven.columns                   { margin-top: -95px; width: 640px; }
     .container .six.columns                     { width: 340px; }
     .container .sixteen.columns                 { width: 940px; }
     .container .ten.columns                     { width: 580px; }
