@@ -14,10 +14,12 @@
 			</p>
 		</div>
 		<div class="seven columns">
-			<p>Además somos la primera agencia en  América Latina especializada en la divulgación de la ciencia y la tecnología.<br><br></p>
-			<h4>CREANDO</h4>
-			<h4>EXPERIENCIAS </h4>
-			<h4>QUE MARCAN.</h4>
+			<p style="margin: -265px 0px 0px 0px; padding: 0px 0px 0px 495px; width: 392px;">Además somos la primera agencia en  América Latina especializada en la divulgación de la ciencia y la tecnología.<br><br></p>
+			<div style="padding: 0px 0px 0px 490px;">
+				<h4>CREANDO</h4>
+				<h4>EXPERIENCIAS </h4>
+				<h4>QUE MARCAN.</h4>
+			</div>
 		</div>
 	</div>
 </section>

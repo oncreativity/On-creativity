@@ -21,6 +21,8 @@
 /* #Base 960 Grid
 ================================================== */
 
+    .sclientes .container                        { width: 1200px !important; }
+
     .container                                  { position: relative; width: 960px; margin: 0 auto; padding: 0; }
     .container .column,
     .container .columns                         { float: left; display: inline; margin-left: 10px; margin-right: 10px; }
@@ -38,9 +40,9 @@
     .container .five.columns                    { width: 280px; }
     .container .four.columns                    { width: 220px; }
     .container .fourteen.columns                { width: 820px; }
-    .container .nine.columns                    { width: 520px; }
+    .container .nine.columns                    { width: 570px; }
     .container .one.columns                     { width: 40px;  }
-    .container .seven.columns                   { width: 400px; }
+    .container .seven.columns                   { width: 560px; }
     .container .six.columns                     { width: 340px; }
     .container .sixteen.columns                 { width: 940px; }
     .container .ten.columns                     { width: 580px; }

@@ -11,6 +11,7 @@
 				</div>
 				<div class="sixteen columns segundafase">
 					<div>
+						<a href="" id="atras"></a>
 						<img src="Css/images/1.png"/>
 						<img src="Css/images/2.png"/>
 						<img src="Css/images/3.png"/>
@@ -20,7 +21,6 @@
 						<img src="Css/images/7.png"/>
 						<img src="Css/images/8.png"/>
 						<img src="Css/images/9.png"/>
-						<a href="" id="atras">atras</a>
 					</div>
 				</div>
 			</div>

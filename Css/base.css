@@ -51,11 +51,11 @@
 
 /* #Basic Styles
 ================================================== */
-	body {
-		font: 14px/21px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-		color: #444;
-		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
-		-webkit-text-size-adjust: 100%;
+body {
+	font: 14px/21px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #444;
+	-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
+	-webkit-text-size-adjust: 100%;
  }
 
 
@@ -74,7 +74,7 @@
 	h6 { font-size: 14px; line-height: 21px; }
 	.subheader { color: #777; }
 
-	p { margin: 0 0 20px 0; text-align: justify; }
+	p { margin: 0 0 -10px 0; text-align: justify; }
 	p img { margin: 0; }
 	p.lead { font-size: 21px; line-height: 27px; color: #777;  }
 
@@ -118,11 +118,10 @@
 
 /* #Images
 ================================================== */
-
 	img.scale-with-grid {
 		max-width: 100%;
-		height: auto; }
-
+		height: auto;
+	}
 
 /* #Buttons
 ================================================== */
@@ -156,7 +155,8 @@
 	  margin-bottom: 20px;
 	  line-height: normal;
 	  padding: 8px 10px;
-	  font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+	  font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; 
+	}
 
 	.button:hover,
 	button:hover,
@@ -338,5 +338,3 @@
 	.remove-bottom { margin-bottom: 0 !important; }
 	.half-bottom { margin-bottom: 10px !important; }
 	.add-bottom { margin-bottom: 20px !important; }
-
-
