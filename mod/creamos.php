@@ -6,7 +6,10 @@
 			<br /><h3 style="font-size: 800%; line-height: 90px; width: 830px;">CREANDO <span>EXPERIENCIAS</span> QUE MARCAN</h3><br /><br />
 		</p>
 		<p style="margin-left: 445px; margin-top: -20px; width: 550px;">
-			<span style="float: right; margin-right: 400px; margin-top: -440px; color: #BBD509;">El método</span>Nos encanta trabajar de la mano con verdaderos líderes. Aquellos que forman parte del proceso creativo, de la aventura que es llevar la imagen de su organización a un nuevo nivel, y así multiplicar los ceros a la derecha de sus cuentas.
+			<span style="float: right; margin-right: 400px; margin-top: -440px; color: #BBD509;">El método</span>
+		</p>
+		<p style="margin-top: -420px; margin-left: 510px; width: 420px;">
+			Nos encanta trabajar de la mano con verdaderos líderes. Aquellos que forman parte del proceso creativo, de la aventura que es llevar la imagen de su organización a un nuevo nivel, y así multiplicar los ceros a la derecha de sus cuentas.
 		</p>
 		<ol class="four columns">
 			<li><p><span>Lo que hacemos:</span></p></li>
