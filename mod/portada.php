@@ -1,10 +1,12 @@
 <section class="intro">
-	<div class="avion"></div>
-	<div class="container">
-		<div class="seven columns workarea">
-			<h3>LA AGENCIA CREATIVA</h3>
-			<h3>MÁS APASIONADA DEL MUNDO, ON CREATIVITY, VIVE EN</h3> 
-			<h3>BARRANQUILLA, COLOMBIA.</h3>
+	<div id="wowslider-container1">
+		<div class="ws_images">
+			<ul>
+				<li><img src="data1/images/muestra_4.jpg" alt="MUESTRA 4" title="MUESTRA 4" id="wows1_0"/></li>
+				<li><img src="data1/images/muestra_1.jpg" alt="MUESTRA 1" title="MUESTRA 1" id="wows1_1"/></li>
+				<li><img src="data1/images/muestra_2.jpg" alt="MUESTRA 2" title="MUESTRA 2" id="wows1_2"/></li>
+				<li><img src="data1/images/muestra_3.jpg" alt="MUESTRA 3" title="MUESTRA 3" id="wows1_3"/></li>
+			</ul>
 		</div>
 	</div>
 </section>
