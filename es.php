@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>On Creativity</title>
+		<title>Creativity</title>
 		<?php if(file_exists('mod/meta.php')){ include('mod/meta.php'); } ?>
  	</head>
  	<body>

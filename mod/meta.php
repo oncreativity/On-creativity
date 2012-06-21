@@ -1,4 +1,5 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<link rel="shortcut icon" type="image/x-ico" href="css/images/favicon.ico">
 <meta name="author" content="On Creativity"/>
 <meta name="copyright" content="Todos los derechos reservados por On Creativity"/>
 <meta name="keywords" content=""/>

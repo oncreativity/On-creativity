@@ -25,7 +25,7 @@ b{font-weight: bolder !important; padding   : 25px 10px 0 55px;margin    : 90px 
 .sclientes p.tresdos{width     : 165px;padding   : 45px 10px 0 55px;margin    : 40px 10px 0 27px;  height    : 150px;}
 .sclientes p.districomex{width     : 165px;padding   : 40px 10px 0 15px;margin    : 90px 10px 0 17px;  height    : 150px;}
 .sclientes p.tu{padding   : 50px 10px 0 45px;margin    : 40px 10px 0 17px;  height    : 150px;width     : 165px;}
-.sproyectos{background : url(images/background_proyectos.jpg) no-repeat;height     : 650px; padding-top: 50px; }
+.sproyectos{ /*background : url(images/background_proyectos.jpg) no-repeat; */ height     : 650px; padding-top: 50px; }
 .sproyectos  h3{font-size    : 710%;     margin-bottom: 50px; font-family  : 'coolvetica';}
 .sproyectos .proyectos{margin-top: 90px;overflow-x: scroll;overflow-y: hidden;width     : 100%;height    : 280px;padding   : 20px; }
 .sproyectos div.proyectos div.block{float: left;margin-right: 15px;background: url(images/separador.png) no-repeat 255px;cursor    : pointer; }
@@ -118,24 +118,24 @@ header nav li:last-child , header nav li:first-child{margin-left : 0px; margin-r
 header nav li:last-child{margin-top: -5px;}
 header nav li:first-child:hover{background: none !important;}
 header nav li:last-child:hover{background: none !important;}
-.intro{ height    : 649px; width: 1410px;}
+.intro{ height    : 80%; width: 81%; margin: 0px auto;}
 .snosotros{background : url(images/background_nosotros.jpg);height     : 800px; padding-top: 50px; }
 .snosotros h3{font-size    : 720%;color        : white;margin-top: 35px; margin-bottom: 80px;font-family : 'coolvetica' !important; }
 .snosotros .fotos img{float: left;margin-right : 7px;margin-bottom: 20px; }
 .snosotros p{color       : white;font-size   : 130%;line-height : 25px; margin-right: 120px; }
 .snosotros h4{font-size  : 350%;font-weight: bold;line-height: 45px;color      : white;font-family : 'coolvetica' !important; }
-.screamos{background : url(images/background_creamos.png) no-repeat;height     : 650px; padding-top: 50px;}
+.screamos{background : url(images/background_creamos.png) no-repeat;height     : 800px; padding-top: 50px;}
 .screamos h3{font-size    : 450%;margin-left  : 10px;margin-bottom: 150px; font-family  : 'coolvetica';color        : white; }
 .screamos p{font-size  : 90%;float      : left; line-height: 15px; text-align : justify;width      : 520px;color      : white; font-family: 'Segoe UI';}
 .screamos h3 span{ /*text-shadow: 0px 0px 20px #A0A296;*/ color: #BBD509;font-weight: bold;font-size: 95%;}
 .screamos p span{color: #BBD509;font-weight: bold;font-size: 140%;line-height: 50px;}
 .screamos ol{list-style: circle;list-style-image: url(images/circulos.png);margin-left: 50px !important; margin-top: -355px; padding-left: 650px;}
-.screamos ol li{width        : 100%;}
+.screamos ol li{width  : 100%;}
 .screamos ol li:first-child{list-style   : none;margin-bottom: 15px;margin-left  : -10px;}
 .screamos ol li p{   float: none;   width: 100%;    font-size :  105%; }
-.sclientes{    background : url(images/background_clientes.jpg);   height     : 600px;     padding-top: 50px; }
+.sclientes{    background : url(images/background_clientes.jpg);   height     : 800px;     padding-top: 50px; }
 .sclientes  h3{    font-size    : 710%;     margin-bottom: 20px; font-family  : 'coolvetica'; color: white;}
-.sclientes p{  background: url(images/bg_blanco2.png);  width     : 950px;   padding   : 35px 10px 0 15px;   margin    : 90px 10px 0 17px;     height    : 150px;    overflow  : hidden;     float     : left;    visibility: hidden; }
+.sclientes p{ /* background: url(images/bg_blanco2.png); */ width     : 950px;   padding   : 35px 10px 0 15px;   margin    : 90px 10px 0 17px;     height    : 150px;    overflow  : hidden;     float     : left;    visibility: hidden; }
 .sclientes p:hover img{-webkit-transform: scale(1.1); }
 .sclientes p img{ /*border-radius: 78px;*/ -moz-transition: .2s; -webkit-transition: .2s; }
 .sclientes p:first-child{  margin    : 41px 10px 0px 57px; }
@@ -148,7 +148,7 @@ header nav li:last-child:hover{background: none !important;}
 .sclientes p.safer{width     : 165px;padding   : 0px 5px 0px 10px;margin    : 40px 621px 0px -195px;  height    : 150px;}
 .sclientes p.tresdos{width     : 150px;padding   : 64px 44px 0px 53px;margin    : -215px 10px 0px -10px;  height    : 165px;}
 .sclientes p.tu{padding   : 50px 10px 0px 45px;margin    : -214px 10px 0px 875px;  height    : 150px;width     : 165px;}
-.sproyectos { background : url(images/background_proyectos.jpg) no-repeat;height     : 650px; padding-top: 50px; }
+.sproyectos { /* background : url(images/background_proyectos.jpg) no-repeat; */height     : 800px; padding-top: 50px; }
 .sproyectos  h3{font-size    : 710%;     margin-bottom: 50px; font-family  : 'coolvetica';}
 .sproyectos .proyectos{margin-top: 90px;overflow-x: scroll;overflow-y: hidden;width     : 100%;height    : 280px;padding   : 20px; }
 .sproyectos div.proyectos div.block{float: left;margin-right: 15px;background: url(images/separador.png) no-repeat 255px;cursor    : pointer; }
@@ -168,7 +168,7 @@ header nav li:last-child:hover{background: none !important;}
 .sproyectos .modalproyectos ol{width   : 450px;overflow: hidden;list-style: none;margin-left:70px; margin-top: 30px;}
 .sproyectos .modalproyectos ol li{margin-right: 60px;}
 .sproyectos .modalproyectos ol li h4{color      :#5A5D5C;font-size  : 110%;font-weight: bolder;line-height: 18px; font-family: 'Segoe UI';}
-.silustraciones{background : url(images/background_clientes.jpg);height     : 650px; padding-top: 50px;}
+.silustraciones{background : url(images/background_clientes.jpg);height     : 800px; padding-top: 50px;}
 .silustraciones .block{overflow: hidden !important;}
 .silustraciones .contenedor{width: 5000px;}
 .silustraciones  .primerafase{background: url(images/canon.png) no-repeat left bottom;display   : block;height    : 550px; float     : left; }
@@ -181,7 +181,7 @@ header nav li:last-child:hover{background: none !important;}
 .silustraciones  .segundafase img{margin-right : 10px;margin-bottom: 10px;cursor       : pointer; }
 .modal{position   : absolute; background : white;padding    : 20px 7px 7px 20px;z-index    : 1000000;border-radius: 5px;-webkit-border-radius: 5px;-moz-border-radius: 5px;-o-border-radius: 5px;}
 .overlay{position  : absolute; width     : 100%;height    : 100%;background: #2E2E2E;opacity   : .7;z-index   : 999999; }
-.sunetenos{background : url(images/background_unetenos.jpg) no-repeat 0 0px;height     : 680px; padding-top: 50px;}
+.sunetenos{background : url(images/background_unetenos.jpg) repeat-y 0 0px;height     : 800px; padding-top: 50px;}
 .sunetenos .container{background : url(images/gray.png) -80px 50px;height     : 100%; }
 .slides_container {width        :100%;background   : url(images/background_unetenos.jpg);height       :220px;}
 .hz{float: right; }
@@ -199,7 +199,7 @@ header nav li:last-child:hover{background: none !important;}
 .sunetenos  .bottom h3{font-size    : 700%;margin-bottom: 70px;margin-top   : 60px;font-family  : 'coolvetica'; }
 .sunetenos .bottom p{font-size  : 110%;  line-height: 20px;color      : black;margin-left: 130px;font-family: 'Segoe UI';}
 .bottom a {font-weight: bold;text-decoration: none;}
-.scontacto{background : url(images/background_contacto.jpg) no-repeat;height     : 640px; padding-top: 50px;}
+.scontacto{background : url(images/background_contacto.jpg) no-repeat;height     : 710px; padding-top: 50px;}
 .scontacto .celular{background:  url(images/cel.png)  no-repeat left -70px ;height    : 550px !important; width     : 400px; float     : right;margin-top: 60px;}
 .scontacto .celular #map_canvas{margin-left: 122px;margin-top : 111px; width      : 198px;height     : 301px;    }
 .scontacto .contenido{float     : left;margin-top: 80px; }
